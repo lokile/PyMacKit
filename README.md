@@ -19,7 +19,7 @@
 2. **Install Virtualenv with Homebrew**: Virtualenv allows you to create isolated Python environments.
     ```bash
     brew install virtualenv
-3. **Navigate to the project directory and create the virtual environment**: Change to your project directory and set up a virtual environment named venv. Then, activate it using:
+3. **Navigate to this project directory and create the virtual environment**:
    ```bash
    virtualenv venv
    source venv/bin/active
