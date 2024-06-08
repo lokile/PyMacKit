@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 
 from libraries import commands
-from menus import settings
+from menu import settings
 
 
 def device_series():

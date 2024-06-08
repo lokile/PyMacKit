@@ -1,15 +1,15 @@
 import rumps
 
-from menus import settings
-from menus.sub_menus.android_devices_menu import load_android_devices
-from menus.sub_menus.screen_record_menu import load_screen_record_menu
-from menus.utils import menu_actions as actions
-from menus.utils.menu_config import build_rumps_menu
+from menu import settings
+from menu.sub_menu.android_devices_menu import load_android_devices
+from menu.sub_menu.screen_record_menu import load_screen_record_menu
+from menu.utils import menu_actions as actions
+from menu.utils.menu_config import build_rumps_menu
 
 
-class PyToolkit(rumps.App):
+class PyMacKit(rumps.App):
     def __init__(self):
-        super(PyToolkit, self).__init__(settings.app_title, quit_button=None)
+        super(PyMacKit, self).__init__(settings.app_title, quit_button=None)
         self.load_menu()
 
     def load_menu(self, sender=None):

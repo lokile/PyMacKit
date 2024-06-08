@@ -1,5 +1,5 @@
-from menus import settings
-from menus.utils import adb
+from menu import settings
+from menu.utils import adb
 
 is_recording = False
 

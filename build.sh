@@ -1,17 +1,17 @@
 #!/bin/bash
 
-killall PyToolkit
+killall PyMacKit
 
 rm -fr ./build
 rm -fr dist
 python setup.py py2app
 
-LAUNCH_SCRIPT="$PWD/dist/pytoolkit.sh"
+LAUNCH_SCRIPT="$PWD/dist/PyMacKit.sh"
 
 # Create the launch script with AppleScript embedded
 cat <<EOF > "$LAUNCH_SCRIPT"
 #!/bin/bash
-open "$PWD/dist/PyToolkit.app"
+open "$PWD/dist/PyMacKit.app"
 EOF
 
 # Make the script executable

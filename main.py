@@ -1,7 +1,7 @@
-from menus import settings
-from menus.main_menu import PyToolkit
+from menu import settings
+from menu.main_menu import PyMacKit
 
 if __name__ == "__main__":
     print("I'm opening")
-    settings.MainMenu = PyToolkit()
+    settings.MainMenu = PyMacKit()
     settings.MainMenu.run()

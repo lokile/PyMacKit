@@ -2,8 +2,8 @@ import re
 
 import rumps
 
-from menus import settings
-from menus.utils import adb
+from menu import settings
+from menu.utils import adb
 
 
 def send_text_to_device_popup(sender):
