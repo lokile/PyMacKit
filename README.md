@@ -23,7 +23,7 @@
    ```bash
    virtualenv venv
    source venv/bin/active
-4. **Install Python packages**: Install all required Python packages specified in your requirements.txt file using pip:
+4. **Install Python packages**: Install all required Python packages:
    ```bash
    pip3 install -r requirements.txt
 5. **Run the app to ensure it works successfully**:
