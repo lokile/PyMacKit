@@ -1,6 +1,6 @@
 # PyMacKit
 
-**PyMacKit** is a powerful macOS toolkit that allows developers to customize menu items for automating tasks such as file modifications and command executions. It's designed with flexibility in mind, making it suitable for developers who wish to tailor tools to their specific needs.
+**PyMacKit** is a simple macOS toolkit that allows developers to customize menu items for automating tasks such as file modifications and command executions. It's designed with flexibility in mind, making it suitable for developers who wish to tailor tools to their specific needs.
 
 ![image](https://github.com/lokile/PyMacKit/assets/107489661/c3c179ca-188c-4092-b5cd-3cf751233f86)
 
